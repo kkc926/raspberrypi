@@ -1,0 +1,18 @@
+# python 설정 조정
+$ sudo ln -sf arm-linux-gnueabihf-python3.7-config  python3.7-config
+$ sudo ln -sf python3.7-config python3-config
+$ sudo ln -sf  python-config
+
+
+# vscode 설치
+$ curl -s https://packagecloud.io/install/repositories/headmelted/codebuilds/script.deb.sh | sudo bash
+$ sudo apt-get install code-oss
+
+
+
+# 해상도/듀얼 모드 복원
+$ sudo su
+# cat config.txt > /boot/config.txt
+
+
+
